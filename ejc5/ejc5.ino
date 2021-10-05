@@ -29,7 +29,7 @@ void setup() {
   timerAlarmWrite(timer, 200, true);  //Obatain data every 100ms
   timerAlarmEnable(timer);
   //start timer with alarm
-  pinMode(32, output); //Pin to connect the led
+  pinMode(32, OUTPUT); //Pin to connect the led
 }
 
 void loop() {
