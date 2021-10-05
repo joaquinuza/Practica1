@@ -1,3 +1,4 @@
+//5Khz pwm signal proportional to an ADC value
 uint16_t test = 0, value = 0;
 void setup() {
   //LED_PWM controller used to generate PWM signals
