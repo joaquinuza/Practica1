@@ -2,10 +2,8 @@
 uint16_t number = 0, tmr = 0;
 const int aPin = 36; //ESP32-DevKit ADC1_CH0
 int val = 0;      //Value read from ADC1_CH0
-int totalInterruptCounter;
 bool setT = false;
 String received;
-portMUX_TYPE timerMux = portMUX_INITIALIZER_UNLOCKED;
 //To stop main loop when a variable is used in both main and ISR interrupt
 hw_timer_t * timer = NULL;  //Pointer of hw_timer_t type
 
